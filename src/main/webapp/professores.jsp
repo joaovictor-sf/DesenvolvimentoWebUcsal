@@ -13,6 +13,8 @@
 <body>
 	<h1>Cadastro</h1>
 	<a href="adicionar.jsp">Adicionar</a>
+	<h2>Bem-vindo ${name}</h2>
+	<h2>${error}</h2>
 	<table>
 		<tr>
 			<th>Nomes dos Professores</th>
