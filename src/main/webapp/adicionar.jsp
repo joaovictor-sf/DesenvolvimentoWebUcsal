@@ -11,11 +11,13 @@
 		<link rel="stylesheet" href="estilo.css">
 	</head>
 	<body>
-		<h2>Adicionar projeto</h2>
+		<h2>Adicionar professor</h2>
 		<form action="./Novo" method="post">
-			Nome: <input type="text" name="projeto">
+			Nome: <input type="text" name="pessoas">
+			Email: <input type="email" name="email">
+			Matricula: <input type="text" name="matricula">
 			<button type="submit">Enviar</button>
-			<a href="agenda.jsp">Voltar a agenda</a>
+			<a href="professores">Voltar a agenda</a>
 		</form>
 	</body>
 </html>

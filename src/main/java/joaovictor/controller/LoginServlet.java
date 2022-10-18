@@ -19,9 +19,9 @@ public class LoginServlet extends HttpServlet {
 		String usuario = request.getParameter("usuario");	
 		String senha = request.getParameter("senha");
 		
-		if( usuario.equals("john") && senha.equals("joao10")){
+		if(usuario.equals("Mario") && senha.equals("mario10")){
 			request.getSession().setAttribute("usuario", usuario);	
-			response.sendRedirect("./agenda.jsp");
+			response.sendRedirect("./professores.jsp");
 		}else{
 			String mensagem = "usuario ou senha incorretos!";
 			request.setAttribute("erro", mensagem);

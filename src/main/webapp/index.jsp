@@ -11,7 +11,6 @@
 		<link rel="stylesheet" href="estilo.css">
 	</head>
 	<body>
-		<!-- Aqui ficará o login para o funcionario acessar a agenda -->
 		<form action="./Login" method="post">
 			Usuario: <input name="usuario" type="text" /><br>
 			Senha: <input name="senha" type="password" /><br>
