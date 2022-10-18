@@ -28,7 +28,7 @@ public class NovoServlet extends HttpServlet {
 		String n = request.getParameter("pessoas");
 		String a = request.getParameter("email");
 		String b = request.getParameter("matricula");
-		if (pessoas.containsValue(n)) {
+		if (pessoas.containsValue(n) && emails.containsValue(a) && matriculas.containsValue(b)) {
 			request.setAttribute("nome", pessoas);
 			request.setAttribute("email", emails);
 			request.setAttribute("matriculas", matriculas);

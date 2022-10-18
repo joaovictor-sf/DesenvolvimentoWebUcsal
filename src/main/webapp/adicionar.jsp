@@ -13,9 +13,9 @@
 	<body>
 		<h2>Adicionar professor</h2>
 		<form action="./Novo" method="post">
-			Nome: <input type="text" name="pessoas">
-			Email: <input type="email" name="email">
-			Matricula: <input type="text" name="matricula">
+			Nome: <input type="text" name="pessoas" required>
+			Email: <input type="email" name="email" required>
+			Matricula: <input type="text" name="matricula"required>
 			<button type="submit">Enviar</button>
 			<a href="professores">Voltar a agenda</a>
 		</form>
