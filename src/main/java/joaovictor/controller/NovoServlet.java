@@ -35,9 +35,9 @@ public class NovoServlet extends HttpServlet {
 			RequestDispatcher requestDispatcher = request.getRequestDispatcher("./professores.jsp");
 			requestDispatcher.forward(request, response);
 		} else {
-			pessoas.put(id, n);
-			emails.put(id, a);
-			matriculas.put(id, b);
+			pessoas.put(id," " + n);
+			emails.put(id," " + a);
+			matriculas.put(id," " + b);
 			id++;
 			System.out.println(pessoas);
 			System.out.println(emails);
