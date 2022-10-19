@@ -8,14 +8,16 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Login</title>
-		<link rel="stylesheet" href="estilo.css">
+		<link rel="stylesheet" href="css/estilo.css">
 	</head>
 	<body>
-		<form action="./Login" method="post">
-			Usuario: <input name="usuario" type="text" /><br>
-			Senha: <input name="senha" type="password" /><br>
-			<span style="color: red;">${erro}</span><br>
-			<button type="submit">Enviar</button>
-		</form>
+		<div id="main">
+			<form action="./Login" method="post">
+				Usuario: <input name="usuario" type="text"  class="input"/><br>
+				Senha: <input name="senha" type="password" class="input"/><br>
+				<span style="color: red;">${erro}</span><br>
+				<button type="submit" id="botao">Enviar</button>
+			</form>
+		</div>
 	</body>
 </html>

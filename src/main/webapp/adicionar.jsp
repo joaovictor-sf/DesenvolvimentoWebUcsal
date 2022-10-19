@@ -8,16 +8,20 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Novo</title>
-		<link rel="stylesheet" href="estilo.css">
+		<link rel="stylesheet" href="css/estilo.css">
 	</head>
 	<body>
-		<h2>Adicionar professor</h2>
-		<form action="./Novo" method="post">
-			Nome: <input type="text" name="pessoas">
-			Email: <input type="email" name="email">
-			Matricula: <input type="text" name="matricula">
-			<button type="submit">Enviar</button>
-			<a href="professores">Voltar a agenda</a>
-		</form>
+		<div id="main3"> 
+			<h2>Adicionar professor</h2>
+			<form action="./Novo" method="post" id="formula">
+				Nome: <input type="text" name="pessoas">
+				Email: <input type="email" name="email">
+				Matricula: <input type="text" name="matricula">
+				<div id="botoes">
+					<button type="submit" id="botao">Enviar</button>
+					<a href="professores.jsp">Voltar a agenda</a>
+				</div>
+			</form>
+		</div>
 	</body>
 </html>
