@@ -17,9 +17,9 @@
 		<a href="adicionar.jsp" class="link">Adicionar</a>
 		<table>
 			<tr>
-				<th>ID</th>
 				<th>Nome do professor</th>
 				<th>Email</th>
+				<th>Matricula</th>
 			</tr>
 			<tr>
 				<td>${nome}</td>
