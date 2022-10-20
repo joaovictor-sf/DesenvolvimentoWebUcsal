@@ -19,7 +19,7 @@
 				Matricula: <input type="text" name="matricula">
 				<div id="botoes">
 					<button type="submit" id="botao">Enviar</button>
-					<a href="professores.jsp">Voltar a agenda</a>
+					<a href="professores.jsp">Voltar o cadastro dos professores</a>
 				</div>
 			</form>
 		</div>

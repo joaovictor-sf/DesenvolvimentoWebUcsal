@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebFilter({"/professores.jsp","/adicionar.jsp", "/sair.jsp"})
+@WebFilter({"/professores.jsp","/adicionar.jsp", "/sair.jsp", "/Novo"})
 public class AutenticarFilter extends HttpFilter implements Filter {
     public AutenticarFilter() {
         super();
