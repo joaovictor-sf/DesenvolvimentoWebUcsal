@@ -17,7 +17,6 @@
 			session.invalidate();
 		%>
 		
-		
 		<h1>Sessão Finalizada</h1>
 		<a href="index.jsp">Logar novamente!</a>
 	</body>

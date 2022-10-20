@@ -29,4 +29,13 @@
     <servlet-name>NovoServlet</servlet-name>
     <url-pattern>/Novo</url-pattern>
   </servlet-mapping>
+  <filter>
+    <display-name>AutenticarFilter</display-name>
+    <filter-name>AutenticarFilter</filter-name>
+    <filter-class>joaovictor.controller.AutenticarFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>AutenticarFilter</filter-name>
+    <url-pattern>/AutenticarFilter</url-pattern>
+  </filter-mapping>
 </web-app>

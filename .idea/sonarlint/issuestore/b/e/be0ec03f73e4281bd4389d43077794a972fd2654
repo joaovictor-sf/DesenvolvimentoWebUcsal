@@ -1,0 +1,28 @@
+
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ªËÛÔ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ûƒŸÅ
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Şµ®“8Ëæ¦€¿0
+A
+java:S1948"$Make "pessoas" private or transient.(ªËÛÔ8ÁÅ¨€¿0
+9
+java:S1948"#Make "emails" private or transient.(ûƒŸÅ
+=
+java:S1948"'Make "matriculas" private or transient.(Şµ®“
+7
+java:S1948"!Make "list" private or transient.(ŠŒÖ
+R
+java:S1854$"7Remove this useless assignment to local variable "pes".(è±é‘üÿÿÿÿ
+U
+java:S1161":Add the "@Override" annotation above this method signature(ş³‚”ûÿÿÿÿ
+C
+java:S1481$"(Remove this unused "pes" local variable.(è±é‘üÿÿÿÿ
+V	java:S125%"<This block of commented-out lines of code should be removed.(‚ùÆïûÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(Æ‚æ¡
+V
+java:S1128"4Remove this unused import 'java.util.LinkedHashMap'.(ò†ŠŞùÿÿÿÿ8¬ç¦€¿0
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8¬ç¦€¿0

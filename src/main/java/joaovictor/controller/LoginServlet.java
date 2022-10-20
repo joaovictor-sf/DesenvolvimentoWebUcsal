@@ -20,6 +20,7 @@ public class LoginServlet extends HttpServlet {
 		String senha = request.getParameter("senha");
 		
 		if(usuario.equals("Mario") && senha.equals("mario10")){
+			request.getSession().setAttribute("usuario", usuario);
 			response.sendRedirect("./professores.jsp");
 		}else{
 			String mensagem = "usuario ou senha incorretos!";
